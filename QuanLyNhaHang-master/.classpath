@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="dist/lib/activation 2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/activation.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-codec-1.11 2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-collections4-4.2 2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-compress-1.18 2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-email-1.4 2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-email-1.4.jar"/>
+	<classpathentry kind="lib" path="dist/lib/javax.mail 2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/javax.mail.jar"/>
+	<classpathentry kind="lib" path="dist/lib/jcalendar-1.4 3.jar"/>
+	<classpathentry kind="lib" path="dist/lib/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="dist/lib/mysql-connector-java-8.0.28 2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/mysql-connector-java-8.0.28.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-4.0.1 2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-4.0.1.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-ooxml-4.0.1 2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-ooxml-4.0.1.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-ooxml-schemas-4.0.1 2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-ooxml-schemas-4.0.1.jar"/>
+	<classpathentry kind="lib" path="dist/lib/xmlbeans-3.0.2 2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/xmlbeans-3.0.2.jar"/>
+	<classpathentry kind="lib" path="dist/QLNhaHang-G3 2.jar"/>
+	<classpathentry kind="lib" path="dist/QLNhaHang-G3.jar"/>
+	<classpathentry kind="lib" path="ThuVien/activation.jar"/>
+	<classpathentry kind="lib" path="ThuVien/commons-email-1.4.jar"/>
+	<classpathentry kind="lib" path="ThuVien/javax.mail.jar"/>
+	<classpathentry kind="lib" path="ThuVien/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="ThuVien/mysql-connector-java-8.0.28.jar"/>
+	<classpathentry kind="lib" path="ThuVien/thuvienpoi/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="ThuVien/thuvienpoi/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="ThuVien/thuvienpoi/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="ThuVien/thuvienpoi/poi-4.0.1.jar"/>
+	<classpathentry kind="lib" path="ThuVien/thuvienpoi/poi-ooxml-4.0.1.jar"/>
+	<classpathentry kind="lib" path="ThuVien/thuvienpoi/poi-ooxml-schemas-4.0.1.jar"/>
+	<classpathentry kind="lib" path="ThuVien/thuvienpoi/xmlbeans-3.0.2.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+    <Property name="title" type="java.lang.String" value="QU&#x1ea2;N L&#xdd; NH&#xc0; H&#xc0;NG - H&#x1af;&#x1eda;NG D&#x1eaa;N"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+            <MatteColorBorder bottom="0" left="3" right="0" top="0">
+              <Color PropertyName="color" blue="66" green="cc" red="ff" type="rgb"/>
+            </MatteColorBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel2" pref="715" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="btnDanhMuc" linkSize="1" min="-2" pref="160" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="btnHuongDan" linkSize="1" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="btnExit" min="-2" pref="121" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="tabs" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="btnExit" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="btnHuongDan" max="32767" attributes="0"/>
+                              <Component id="btnDanhMuc" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="15" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jLabel2" min="-2" pref="49" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="442" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace pref="141" max="32767" attributes="0"/>
+                      <Component id="tabs" min="-2" pref="402" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="tabs">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="0" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Lucida Grande" size="18" style="1"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder/>
+                  </Border>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="cc" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Qu&#x1ea3;n l&#xfd;">
+                    <Property name="tabTitle" type="java.lang.String" value="Qu&#x1ea3;n l&#xfd;"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" alignment="0" pref="678" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" alignment="0" pref="352" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="jTextArea1">
+                      <Properties>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="* L&#x1b0;u &#xfd;: v&#x1edb;i vai tr&#xf2; l&#xe0; qu&#x1ea3;n l&#xfd; b&#x1ea1;n c&#xf3; thao t&#xe1;c to&#xe0;n b&#x1ed9; c&#xe1;c ch&#x1ee9;c n&#x103;ng c&#xf3; trong &#x1ee9;ng d&#x1ee5;ng.&#xa;&#x110;&#x1eb7;t m&#xf3;n:&#xa;Khi nh&#x1ea5;p ch&#x1ecd;n &#x201c;&#x110;&#x1eb7;t M&#xf3;n&#x201d; s&#x1ebd; &#x111;&#x1b0;a ng&#x1b0;&#x1edd;i d&#xf9;ng &#x111;&#x1ebf;n trang s&#x1a1; &#x111;&#x1ed3; b&#xe0;n. &#xa;&#x110;&#x1ec3; th&#xea;m b&#xe0;n v&#xe0;o trong nh&#xe0; h&#xe0;ng nh&#x1ea5;n ch&#x1ecd;n v&#xe0;o n&#xfa;t &#x201c;TH&#xca;M B&#xc0;N&#x201d; &#x1edf; tr&#xea;n khu v&#x1ef1;c menu.&#xa;&#x110;&#x1ec3; ki&#x1ec3;m tra t&#xec;nh tr&#x1ea1;ng b&#xe0;n d&#x1ef1;a v&#xe0;o m&#xe0;u s&#x1eaf;c c&#x1ee7;a b&#xe0;n: c&#xf2;n tr&#x1ed1;ng (m&#xe0;u xanh), &#x111;&#xe3; &#x111;&#x1eb7;t b&#xe0;n (m&#xe0;u v&#xe0;ng), &#x111;&#xe3; &#x111;&#x1eb7;t m&#xf3;n (m&#xe0;u &#x111;&#x1ecf;).&#xa;&#x110;&#x1ec3; &#x111;&#x1eb7;t b&#xe0;n nh&#x1ea5;p ch&#x1ecd;n 1 l&#x1ea7;n &#x111;&#x1ec3; &#x111;&#x1eb7;t, nh&#x1ea5;p l&#x1ea7;n 2 &#x111;&#x1ec3; chuy&#x1ec3;n sang &#x111;&#x1eb7;t m&#xf3;n cho b&#xe0;n &#x111;&#xf3;.&#xa;&#x110;&#x1eb7;t m&#xf3;n:&#xa;Khi ch&#x1b0;a ch&#x1ecd;n b&#xe0;n &#x111;&#x1ec3; v&#xe0;o trang &#x111;&#x1eb7;t m&#xf3;n th&#xec; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; 1 th&#xf4;ng b&#xe1;o vui l&#xf2;ng nh&#x1ead;p v&#xe0;o &#x201c;m&#xe3; h&#xf3;a &#x111;&#x1a1;n&#x201d; &#x111;&#x1ec3; hi&#x1ec3;n th&#x1ecb; th&#xf4;ng tin h&#xf3;a &#x111;&#x1a1;n &#x111;&#xf3;.&#xa;Khi &#x111;&#xe3; &#x111;&#x1eb7;t b&#xe0;n th&#xec; v&#xe0;o trang &#x111;&#x1eb7;t m&#xf3;n:&#xa;M&#xf3;n &#x103;n, th&#x1ee9;c u&#x1ed1;ng: khi ch&#x1ecd;n 1 lo&#x1ea1;i m&#xf3;n b&#x1ea5;t k&#xec; theo y&#xea;u c&#x1ea7;u kh&#xe1;ch h&#xe0;ng th&#xec; c&#xe1;c m&#xf3;n c&#xf3; trong th&#x1ef1;c &#x111;&#x1a1;n s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c hi&#x1ec3;n th&#x1ecb; d&#x1b0;&#x1edb;i b&#x1ea3;ng th&#x1ef1;c &#x111;&#x1a1;n.&#xa;Khung kh&#xe1;ch h&#xe0;ng:&#xa;&#x9;. T&#xec;m ki&#x1ebf;m: &#x111;&#x1ec3; t&#xec;m ki&#x1ebf;m th&#xf4;ng tin kh&#xe1;ch h&#xe0;ng &#x111;&#xe3; t&#x1eeb;ng gh&#xe9; nh&#xe0; h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;T&#xec;m Ki&#x1ebf;m&#x201d; trong khung kh&#xe1;ch h&#xe0;ng, khi &#x111;&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; 1 th&#xf4;ng b&#xe1;o &#x111;&#x1ec3; ki&#x1ec3;m tra vui l&#xf2;ng nh&#x1ead;p &#x201c;s&#x1ed1; &#x111;i&#x1ec7;n tho&#x1ea1;i&#x201d; kh&#xe1;ch h&#xe0;ng, n&#x1ebf;u c&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; th&#xf4;ng tin c&#x1ee7;a kh&#xe1;ch h&#xe0;ng &#x111;&#xf3; l&#xea;n h&#xf3;a &#x111;&#x1a1;n.&#xa;&#x9;. C&#x1ead;p nh&#x1ead;t: &#x111;&#x1ec3; c&#x1ead;p nh&#x1ead;t th&#xf4;ng tin kh&#xe1;ch h&#xe0;ng &#x111;&#xe3; l&#x1b0;u trong nh&#xe0; h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;T&#xec;m Ki&#x1ebf;m&#x201d; trong khung kh&#xe1;ch h&#xe0;ng, khi &#x111;&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; 1 th&#xf4;ng b&#xe1;o &#x111;&#x1ec3; ki&#x1ec3;m tra vui l&#xf2;ng nh&#x1ead;p s&#x1ed1; &#x111;i&#x1ec7;n tho&#x1ea1;i kh&#xe1;ch h&#xe0;ng, n&#x1ebf;u c&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; th&#xf4;ng tin c&#x1ee7;a kh&#xe1;ch h&#xe0;ng &#x111;&#xf3; l&#xea;n h&#xf3;a &#x111;&#x1a1;n v&#xe0; nh&#x1ea5;p v&#xe0;o &#x201c;C&#x1ead;p Nh&#x1ead;t&#x201d; &#x111;&#x1ec3; t&#xf9;y ch&#x1ec9;nh c&#xe1;c th&#xf4;ng tin mu&#x1ed1;n thay &#x111;&#x1ed5;i.&#xa;&#x9;. L&#xe0;m m&#x1edb;i: d&#xf9;ng &#x111;&#x1ec3; x&#xf3;a tr&#x1eaf;ng c&#xe1;c v&#x103;n b&#x1ea3;n c&#xf3; tr&#xea;n th&#xf4;ng tin kh&#xe1;ch h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;L&#xe0;m M&#x1edb;i&#x201d;.&#xa;&#x9;. L&#x1b0;u kh&#xe1;ch h&#xe0;ng: d&#xf9;ng &#x111;&#x1ec3; l&#x1b0;u kh&#xe1;ch h&#xe0;ng m&#x1edb;i v&#xe0;o trong l&#x1ecb;ch s&#x1eed; gh&#xe9; &#x111;&#x1ebf;n nh&#xe0; h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;L&#x1b0;u KH&#x201d;.&#xa;&#xa;Khung H&#xf3;a &#x110;&#x1a1;n: &#xa;&#x9;. T&#xec;m ki&#x1ebf;m: &#x111;&#x1ec3; t&#xec;m ki&#x1ebf;m to&#xe0;n b&#x1ed9; th&#xf4;ng tin kh&#xe1;ch h&#xe0;ng v&#xe0; h&#xf3;a &#x111;&#x1a1;n &#x111;&#xe3; t&#x1eeb;ng gh&#xe9; nh&#xe0; h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;T&#xec;m Ki&#x1ebf;m&#x201d; trong khung h&#xf3;a &#x111;&#x1a1;n, khi &#x111;&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; 1 th&#xf4;ng b&#xe1;o &#x111;&#x1ec3; ki&#x1ec3;m tra vui l&#xf2;ng nh&#x1ead;p m&#xe3; h&#xf3;a &#x111;&#x1a1;n n&#x1ebf;u c&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; to&#xe0;n b&#x1ed9; th&#xf4;ng tin c&#x1ee7;a kh&#xe1;ch h&#xe0;ng v&#xe0; h&#xf3;a &#x111;&#x1a1;n &#x111;&#xf3; l&#xea;n h&#xf3;a &#x111;&#x1a1;n.&#xa;&#x9;. C&#x1ead;p nh&#x1ead;t: &#x111;&#x1ec3; c&#x1ead;p nh&#x1ead;t th&#xf4;ng tin h&#xf3;a &#x111;&#x1a1;n &#x111;&#xe3; l&#x1b0;u trong nh&#xe0; h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;T&#xec;m Ki&#x1ebf;m&#x201d; trong khung h&#xf3;a &#x111;&#x1a1;n, khi &#x111;&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; 1 th&#xf4;ng b&#xe1;o &#x111;&#x1ec3; ki&#x1ec3;m tra vui l&#xf2;ng nh&#x1ead;p &#x201c;m&#xe3; h&#xf3;a &#x111;&#x1a1;n&#x201d; c&#x1ee7;a kh&#xe1;ch h&#xe0;ng, n&#x1ebf;u c&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; th&#xf4;ng tin c&#x1ee7;a h&#xf3;a &#x111;&#x1a1;n &#x111;&#xf3; l&#xea;n h&#xf3;a &#x111;&#x1a1;n v&#xe0; nh&#x1ea5;p v&#xe0;o &#x201c;C&#x1ead;p Nh&#x1ead;t&#x201d; &#x111;&#x1ec3; t&#xf9;y ch&#x1ec9;nh c&#xe1;c th&#xf4;ng tin mu&#x1ed1;n thay &#x111;&#x1ed5;i.&#xa;&#x9;. L&#xe0;m m&#x1edb;i: d&#xf9;ng &#x111;&#x1ec3; reset th&#xf4;ng tin h&#xf3;a &#x111;&#x1a1;n vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;L&#xe0;m M&#x1edb;i&#x201d;.&#xa;. L&#x1b0;u H&#x110;: d&#xf9;ng &#x111;&#x1ec3; l&#x1b0;u th&#xf4;ng tin h&#xf3;a &#x111;&#x1a1;n m&#x1edb;i v&#xe0;o trong l&#x1ecb;ch s&#x1eed; nh&#xe0; h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;L&#x1b0;u H&#x110;&#x201d;.&#xa;&#xa;Khung th&#xea;m m&#xf3;n: &#xa;&#x9;. Th&#xea;m: nh&#x1ea5;p ch&#x1ecd;n m&#xf3;n &#x103;n mu&#x1ed1;n th&#xea;m v&#xe0; nh&#x1ea5;p v&#xe0;o &#x201c;TH&#xca;M&#x201d; &#x111;&#x1ec3; th&#xea;m m&#xf3;n &#x103;n &#x111;&#xf3; v&#xe0;o h&#xf3;a &#x111;&#x1a1;n c&#x1ee7;a kh&#xe1;ch h&#xe0;ng.&#xa;&#x9;. X&#xf3;a: nh&#x1ea5;p ch&#x1ecd;n m&#xf3;n &#x103;n &#x111;&#xe3; th&#xea;m v&#xe0;o h&#xf3;a &#x111;&#x1a1;n tr&#x1b0;&#x1edb;c &#x111;&#xf3; v&#xe0; nh&#x1ea5;p v&#xe0;o &#x201c;X&#xd3;A&#x201d; &#x111;&#x1ec3; x&#xf3;a m&#xf3;n &#x111;&#xf3; kh&#x1ecf;i h&#xf3;a &#x111;&#x1a1;n c&#x1ee7;a kh&#xe1;ch h&#xe0;ng.&#xa;&#x9;. T&#x103;ng: nh&#x1ea5;p ch&#x1ecd;n v&#xe0;o m&#xf3;n &#x103;n &#x111;&#xe3; th&#xea;m v&#xe0;o h&#xf3;a &#x111;&#x1a1;n tr&#x1b0;&#x1edb;c &#x111;&#xf3; v&#xe0; nh&#x1ea5;p v&#xe0;o &#x201c;T&#x102;NG&#x201d; &#x111;&#x1ec3; t&#x103;ng s&#x1ed1; l&#x1b0;&#x1ee3;ng m&#xf3;n &#x103;n &#x111;&#xf3;.&#xa;&#x9;. Gi&#x1ea3;m: nh&#x1ea5;p ch&#x1ecd;n v&#xe0;o m&#xf3;n &#x103;n &#x111;&#xe3; th&#xea;m v&#xe0;o h&#xf3;a &#x111;&#x1a1;n tr&#x1b0;&#x1edb;c &#x111;&#xf3; v&#xe0; nh&#x1ea5;p v&#xe0;o &#x201c;GI&#x1ea2;M&#x201d; &#x111;&#x1ec3; gi&#x1ea3;m s&#x1ed1; l&#x1b0;&#x1ee3;ng m&#xf3;n &#x103;n &#x111;&#xf3;.&#xa;&#xa;Khung h&#xf3;a &#x111;&#x1a1;n: nh&#x1ea5;p &#x111;&#x1ea7;y &#x111;&#x1ee7; th&#xf4;ng tin kh&#xe1;ch h&#xe0;ng v&#xe0; c&#xe1;c m&#xf3;n &#x103;n theo y&#xea;u c&#x1ea7;u, ch&#x1ecd;n khuy&#x1ebf;n m&#xe3;i ph&#xf9; h&#x1ee3;p v&#x1edb;i ch&#x1b0;&#x1a1;ng tr&#xec;nh, ch&#x1ecd;n lo&#x1ea1;i h&#xec;nh &#x201c;thanh to&#xe1;n&#x201d; theo nhu c&#x1ea7;u c&#x1ee7;a kh&#xe1;ch h&#xe0;ng. Nh&#x1ea5;p ch&#x1ecd;n &#x201c;Thanh To&#xe1;n&#x201d; &#x111;&#x1ec3; thanh to&#xe1;n cho kh&#xe1;ch h&#xe0;ng v&#xe0; &#x111;&#x1ed3;ng th&#x1edd;i l&#x1b0;u h&#xf3;a &#x111;&#x1a1;n v&#xe0;o l&#x1ecb;ch s&#x1eed; nh&#xe0; h&#xe0;ng.&#xa;&#xa;Th&#xea;m m&#x1edb;i:&#xa;Ng&#x1b0;&#x1edd;i d&#xf9;ng l&#xe0; qu&#x1ea3;n l&#xfd; &#x111;&#x1b0;&#x1ee3;c quy&#x1ec1;n ki&#x1ec3;m tra th&#xf4;ng tin c&#xe1; nh&#xe2;n c&#x1ee7;a m&#xec;nh v&#xe0; s&#x1eed; d&#x1ee5;ng t&#x1ea5;t c&#x1ea3; c&#xe1;c ch&#x1ee9;c n&#x103;ng kh&#xe1;c c&#xf3; trong &#x201c;Th&#xea;m M&#x1edb;i&#x201d;: Nh&#xe2;n vi&#xea;n, Ca tr&#x1ef1;c, M&#xf3;n &#x103;n, C&#xf4;ng th&#x1ee9;c, Khuy&#x1ebf;n m&#xe3;i, Phi&#x1ebf;u nh&#x1ead;p, Nguy&#xea;n li&#x1ec7;u&#xa;Khi nh&#x1ea5;p v&#xe0;o b&#x1ea1;n s&#x1ebd; xem &#x111;&#x1b0;&#x1ee3;c th&#xf4;ng tin c&#xe1; nh&#xe2;n c&#x1ee7;a b&#x1ea3;n th&#xe2;n ho&#x1eb7;c to&#xe0;n b&#x1ed9; c&#xe1;c nh&#xe2;n vi&#xea;n kh&#xe1;c trong nh&#xe0; h&#xe0;ng v&#xe0; c&#xf3; th&#x1ec3; thao t&#xe1;c &#x111;&#x1b0;&#x1ee3;c c&#xe1;c ch&#x1ee9;c n&#x103;ng c&#x1a1; b&#x1ea3;n (th&#xea;m, x&#xf3;a, s&#x1eed;a).&#xa;Ca tr&#x1ef1;c: d&#xf9;ng &#x111;&#x1ec3; ph&#xe2;n l&#x1ecb;ch chi ti&#x1ebf;t cho c&#xe1;c nh&#xe2;n vi&#xea;n.&#xa;M&#xf3;n &#x103;n: d&#xf9;ng &#x111;&#x1ec3; th&#xea;m, x&#xf3;a, s&#x1eed;a m&#x1ed9;t m&#xf3;n m&#x1edb;i v&#xe0;o trong menu nh&#xe0; h&#xe0;ng.&#xa;C&#xf4;ng th&#x1ee9;c: d&#xf9;ng &#x111;&#x1ec3; th&#xea;m, x&#xf3;a, s&#x1eed;a c&#xf4;ng th&#x1ee9;c c&#x1ee7;a m&#xf3;n &#x103;n c&#xf3; trong menu nh&#xe0; h&#xe0;ng.&#xa;Khuy&#x1ebf;n m&#xe3;i: d&#xf9;ng &#x111;&#x1ec3; th&#xea;m, x&#xf3;a, s&#x1eed;a khuy&#x1ebf;n m&#xe3;i c&#x1ee7;a m&#x1ed9;t h&#xf3;a &#x111;&#x1a1;n hay khuy&#x1ebf;n m&#xe3;i chi ti&#x1ebf;t cho m&#x1ed9;t m&#xf3;n.&#xa;Phi&#x1ebf;u nh&#x1ead;p: d&#xf9;ng &#x111;&#x1ec3; th&#xea;m, x&#xf3;a, s&#x1eed;a c&#xe1;c lo&#x1ea1;i h&#xe0;ng h&#xf3;a v&#xe0;o nh&#xe0; h&#xe0;ng.&#xa;Nguy&#xea;n li&#x1ec7;u: d&#xf9;ng &#x111;&#x1ec3; th&#xea;m, x&#xf3;a, s&#x1eed;a c&#xe1;c lo&#x1ea1;i nguy&#xea;n li&#x1ec7;u &#x111;&#xe3; nh&#x1ead;p v&#xe0;o nh&#xe0; h&#xe0;ng.&#xa;&#xa;H&#xf3;a &#x110;&#x1a1;n: &#xa;Khi &#x111;&#x103;ng nh&#x1ead;p v&#xe0;o v&#x1edb;i vai tr&#xf2; c&#x1ee7;a &#x201c;Qu&#x1ea3;n l&#xfd;&#x201d; &#x111;&#x1b0;&#x1ee3;c s&#x1eed; d&#x1ee5;ng to&#xe0;n b&#x1ed9; c&#xe1;c th&#x1ed1;ng k&#xea;: nh&#xe2;n vi&#xea;n, ca tr&#x1ef1;c, kh&#xe1;ch h&#xe0;ng, h&#xf3;a &#x111;&#x1a1;n, nguy&#xea;n li&#x1ec7;u, phi&#x1ebf;u nh&#x1ead;p, phi&#x1ebf;u nh&#x1ead;p chi ti&#x1ebf;t, khuy&#x1ebf;n m&#xe3;i.&#xa;Th&#x1ed1;ng k&#xea; kh&#xe1;ch h&#xe0;ng:&#xa;. &#x110;&#x1ec3; t&#xec;m ki&#x1ebf;m &#xa;&#x110;&#x1ed5;i m&#x1ead;t kh&#x1ea9;u:&#xa;&#x110;&#x1ec3; &#x111;&#x1ed5;i m&#x1ead;t kh&#x1ea9;u hi&#x1ec7;n t&#x1ea1;i vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;&#x110;&#x1ed5;i M&#x1ead;t Kh&#x1ea9;u&#x201d;. &#xa;Nh&#x1ead;p m&#x1ead;t kh&#x1ea9;u hi&#x1ec7;n t&#x1ea1;i, nh&#x1ead;p m&#x1ead;t kh&#x1ea9;u m&#x1edb;i, x&#xe1;c nh&#x1ead;n l&#x1ea1;i m&#x1ead;t kh&#x1ea9;u m&#x1edb;i v&#x1eeb;a nh&#x1ead;p. N&#x1ebf;u nh&#x1ead;p sai c&#xe1;c th&#xf4;ng tin s&#x1ebd; b&#xe1;o l&#x1ed7;i &#x201c;&#x111;&#x1ed5;i kh&#xf4;ng th&#xe0;nh c&#xf4;ng&#x201d;&#xa;&#xa;C&#xe1; nh&#xe2;n:&#xa;Ng&#x1b0;&#x1edd;i d&#xf9;ng kh&#xf4;ng ph&#x1ea3;i l&#xe0; qu&#x1ea3;n l&#xfd; ch&#x1ec9; &#x111;&#x1b0;&#x1ee3;c ki&#x1ec3;m tra th&#xf4;ng tin c&#xe1; nh&#xe2;n c&#x1ee7;a m&#xec;nh v&#xe0; kh&#xf4;ng &#x111;&#x1b0;&#x1ee3;c s&#x1eed; d&#x1ee5;ng c&#xe1;c ch&#x1ee9;c n&#x103;ng kh&#xe1;c.&#xa;&#xa;Giao di&#x1ec7;n qu&#xea;n m&#x1ead;t kh&#x1ea9;u:&#xa;+ Sau khi ch&#x1ea1;y form login n&#x1ebf;u ng&#x1b0;&#x1edd;i d&#xf9;ng qu&#xea;n m&#x1ead;t kh&#x1ea9;u &#x111;&#x103;ng nh&#x1ead;p =&gt; click v&#xe0;o n&#xfa;t qu&#xea;n m&#x1ead;t kh&#x1ea9;u s&#x1ebd; chuy&#x1ec3;n sang form qu&#xea;n m&#x1ead;t kh&#x1ea9;u&#xa;+ Ng&#x1b0;&#x1edd;i d&#xf9;ng ph&#x1ea3;i nh&#x1ead;p &#x111;&#x1ea7;y &#x111;&#x1ee7; th&#xf4;ng tin n&#x1ebf;u mu&#x1ed1;n l&#x1ea5;y l&#x1ea1;i m&#x1ead;t kh&#x1ea9;u m&#x1edb;i.&#xa;+ Ng&#x1b0;&#x1edd;i d&#xf9;ng ph&#x1ea3;i nh&#x1ead;p &#x111;&#xfa;ng th&#xf4;ng tin bao g&#x1ed3;m T&#xe0;i kho&#x1ea3;n ( M&#xe3; Nh&#xe2;n Vi&#xea;n) v&#xe0; email khi &#x111;&#x103;ng k&#xfd; &#xa;+ N&#x1ebf;u &#x111;&#x1b0;&#x1ee3;c th&#xf4;ng b&#xe1;o ( M&#x1ead;t kh&#x1ea9;u m&#x1edb;i c&#x1ee7;a b&#x1ea1;n &#x111;&#xe3; &#x111;&#x1b0;&#x1ee3;c g&#x1eed;i qua mail) th&#xec; b&#x1ea1;n vui l&#xf2;ng v&#xe0;o email c&#x1ee7;a m&#xec;nh &#x111;&#x1ec3; check email t&#x1eeb; Nh&#xe0; H&#xe0;ng &#x111;&#x1ec3; nh&#x1ead;n th&#xf4;ng tin v&#x1ec1; m&#x1ead;t kh&#x1ea9;u m&#x1edb;i.&#xa;+ Sau nghi nh&#x1ead;p &#x111;&#x1b0;&#x1ee3;c m&#x1ead;t kh&#x1ea9;u m&#x1edb;i b&#x1ea1;n vui l&#xf2;ng v&#xe0;o ph&#x1ea7;n &#x111;&#x1ed5;i m&#x1ead;t kh&#x1ea9;u &#x111;&#x1ec3; &#x111;&#x1ed5;i l&#x1ea1;i m&#x1ead;t kh&#x1ea9;u m&#x1edb;i.&#xa;&#xa;&#xa;Mail Sinh Nh&#x1ead;t:&#xa;+ Khi m&#x1edf; form login C&#xe1;c kh&#xe1;ch h&#xe0;ng c&#xf3; th&#xe1;ng sinh tr&#x1b0;&#x1edb;c th&#xe1;ng hi&#x1ec7;n t&#x1ea1;i 1 th&#xe1;ng s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c g&#x1eed;i mail m&#x1edd;i &#x111;&#x1ebf;n email kh&#xe1;ch h&#xe0;ng.&#xa;"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder/>
+                  </Border>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="cc" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Thu Ng&#xe2;n">
+                    <Property name="tabTitle" type="java.lang.String" value="Thu Ng&#xe2;n"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane2" alignment="0" pref="678" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane2" alignment="0" pref="352" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="jTextArea2">
+                      <Properties>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="S&#x1a1; &#x111;&#x1ed3; b&#xe0;n: &#xa;&#x110;&#x1ec3; th&#xea;m b&#xe0;n v&#xe0;o trong nh&#xe0; h&#xe0;ng nh&#x1ea5;n ch&#x1ecd;n v&#xe0;o n&#xfa;t &#x201c;TH&#xca;M B&#xc0;N&#x201d; &#x1edf; tr&#xea;n khu v&#x1ef1;c menu.&#xa;&#x110;&#x1ec3; ki&#x1ec3;m tra t&#xec;nh tr&#x1ea1;ng b&#xe0;n d&#x1ef1;a v&#xe0;o m&#xe0;u s&#x1eaf;c c&#x1ee7;a b&#xe0;n: c&#xf2;n tr&#x1ed1;ng (m&#xe0;u xanh), &#x111;&#xe3; &#x111;&#x1eb7;t b&#xe0;n (m&#xe0;u v&#xe0;ng), &#x111;&#xe3; &#x111;&#x1eb7;t m&#xf3;n (m&#xe0;u &#x111;&#x1ecf;).&#xa;&#x110;&#x1ec3; &#x111;&#x1eb7;t b&#xe0;n nh&#x1ea5;p ch&#x1ecd;n 1 l&#x1ea7;n &#x111;&#x1ec3; &#x111;&#x1eb7;t, nh&#x1ea5;p l&#x1ea7;n 2 &#x111;&#x1ec3; chuy&#x1ec3;n sang &#x111;&#x1eb7;t m&#xf3;n cho b&#xe0;n &#x111;&#xf3;.&#xa;&#xa;&#x110;&#x1eb7;t m&#xf3;n:&#xa;Khi ch&#x1b0;a ch&#x1ecd;n b&#xe0;n &#x111;&#x1ec3; v&#xe0;o trang &#x111;&#x1eb7;t m&#xf3;n th&#xec; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; 1 th&#xf4;ng b&#xe1;o vui l&#xf2;ng nh&#x1ead;p v&#xe0;o &#x201c;m&#xe3; h&#xf3;a &#x111;&#x1a1;n&#x201d; &#x111;&#x1ec3; hi&#x1ec3;n th&#x1ecb; th&#xf4;ng tin h&#xf3;a &#x111;&#x1a1;n &#x111;&#xf3;.&#xa;Khi &#x111;&#xe3; &#x111;&#x1eb7;t b&#xe0;n th&#xec; v&#xe0;o trang &#x111;&#x1eb7;t m&#xf3;n:&#xa;M&#xf3;n &#x103;n, th&#x1ee9;c u&#x1ed1;ng: khi ch&#x1ecd;n 1 lo&#x1ea1;i m&#xf3;n b&#x1ea5;t k&#xec; theo y&#xea;u c&#x1ea7;u kh&#xe1;ch h&#xe0;ng th&#xec; c&#xe1;c m&#xf3;n c&#xf3; trong th&#x1ef1;c &#x111;&#x1a1;n s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c hi&#x1ec3;n th&#x1ecb; d&#x1b0;&#x1edb;i b&#x1ea3;ng th&#x1ef1;c &#x111;&#x1a1;n.&#xa;Khung kh&#xe1;ch h&#xe0;ng:&#xa;&#x9;. T&#xec;m ki&#x1ebf;m: &#x111;&#x1ec3; t&#xec;m ki&#x1ebf;m th&#xf4;ng tin kh&#xe1;ch h&#xe0;ng &#x111;&#xe3; t&#x1eeb;ng gh&#xe9; nh&#xe0; h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;T&#xec;m Ki&#x1ebf;m&#x201d; trong khung kh&#xe1;ch h&#xe0;ng, khi &#x111;&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; 1 th&#xf4;ng b&#xe1;o &#x111;&#x1ec3; ki&#x1ec3;m tra vui l&#xf2;ng nh&#x1ead;p &#x201c;s&#x1ed1; &#x111;i&#x1ec7;n tho&#x1ea1;i&#x201d; kh&#xe1;ch h&#xe0;ng, n&#x1ebf;u c&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; th&#xf4;ng tin c&#x1ee7;a kh&#xe1;ch h&#xe0;ng &#x111;&#xf3; l&#xea;n h&#xf3;a &#x111;&#x1a1;n.&#xa;&#x9;. C&#x1ead;p nh&#x1ead;t: &#x111;&#x1ec3; c&#x1ead;p nh&#x1ead;t th&#xf4;ng tin kh&#xe1;ch h&#xe0;ng &#x111;&#xe3; l&#x1b0;u trong nh&#xe0; h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;T&#xec;m Ki&#x1ebf;m&#x201d; trong khung kh&#xe1;ch h&#xe0;ng, khi &#x111;&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; 1 th&#xf4;ng b&#xe1;o &#x111;&#x1ec3; ki&#x1ec3;m tra vui l&#xf2;ng nh&#x1ead;p s&#x1ed1; &#x111;i&#x1ec7;n tho&#x1ea1;i kh&#xe1;ch h&#xe0;ng, n&#x1ebf;u c&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; th&#xf4;ng tin c&#x1ee7;a kh&#xe1;ch h&#xe0;ng &#x111;&#xf3; l&#xea;n h&#xf3;a &#x111;&#x1a1;n v&#xe0; nh&#x1ea5;p v&#xe0;o &#x201c;C&#x1ead;p Nh&#x1ead;t&#x201d; &#x111;&#x1ec3; t&#xf9;y ch&#x1ec9;nh c&#xe1;c th&#xf4;ng tin mu&#x1ed1;n thay &#x111;&#x1ed5;i.&#xa;&#x9;. L&#xe0;m m&#x1edb;i: d&#xf9;ng &#x111;&#x1ec3; x&#xf3;a tr&#x1eaf;ng c&#xe1;c v&#x103;n b&#x1ea3;n c&#xf3; tr&#xea;n th&#xf4;ng tin kh&#xe1;ch h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;L&#xe0;m M&#x1edb;i&#x201d;.&#xa;&#x9;. L&#x1b0;u kh&#xe1;ch h&#xe0;ng: d&#xf9;ng &#x111;&#x1ec3; l&#x1b0;u kh&#xe1;ch h&#xe0;ng m&#x1edb;i v&#xe0;o trong l&#x1ecb;ch s&#x1eed; gh&#xe9; &#x111;&#x1ebf;n nh&#xe0; h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;L&#x1b0;u KH&#x201d;.&#xa;&#xa;Khung H&#xf3;a &#x110;&#x1a1;n: &#xa;&#x9;. T&#xec;m ki&#x1ebf;m: &#x111;&#x1ec3; t&#xec;m ki&#x1ebf;m to&#xe0;n b&#x1ed9; th&#xf4;ng tin kh&#xe1;ch h&#xe0;ng v&#xe0; h&#xf3;a &#x111;&#x1a1;n &#x111;&#xe3; t&#x1eeb;ng gh&#xe9; nh&#xe0; h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;T&#xec;m Ki&#x1ebf;m&#x201d; trong khung h&#xf3;a &#x111;&#x1a1;n, khi &#x111;&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; 1 th&#xf4;ng b&#xe1;o &#x111;&#x1ec3; ki&#x1ec3;m tra vui l&#xf2;ng nh&#x1ead;p m&#xe3; h&#xf3;a &#x111;&#x1a1;n n&#x1ebf;u c&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; to&#xe0;n b&#x1ed9; th&#xf4;ng tin c&#x1ee7;a kh&#xe1;ch h&#xe0;ng v&#xe0; h&#xf3;a &#x111;&#x1a1;n &#x111;&#xf3; l&#xea;n h&#xf3;a &#x111;&#x1a1;n.&#xa;&#x9;. C&#x1ead;p nh&#x1ead;t: &#x111;&#x1ec3; c&#x1ead;p nh&#x1ead;t th&#xf4;ng tin h&#xf3;a &#x111;&#x1a1;n &#x111;&#xe3; l&#x1b0;u trong nh&#xe0; h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;T&#xec;m Ki&#x1ebf;m&#x201d; trong khung h&#xf3;a &#x111;&#x1a1;n, khi &#x111;&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; 1 th&#xf4;ng b&#xe1;o &#x111;&#x1ec3; ki&#x1ec3;m tra vui l&#xf2;ng nh&#x1ead;p &#x201c;m&#xe3; h&#xf3;a &#x111;&#x1a1;n&#x201d; c&#x1ee7;a kh&#xe1;ch h&#xe0;ng, n&#x1ebf;u c&#xf3; s&#x1ebd; hi&#x1ec3;n th&#x1ecb; th&#xf4;ng tin c&#x1ee7;a h&#xf3;a &#x111;&#x1a1;n &#x111;&#xf3; l&#xea;n h&#xf3;a &#x111;&#x1a1;n v&#xe0; nh&#x1ea5;p v&#xe0;o &#x201c;C&#x1ead;p Nh&#x1ead;t&#x201d; &#x111;&#x1ec3; t&#xf9;y ch&#x1ec9;nh c&#xe1;c th&#xf4;ng tin mu&#x1ed1;n thay &#x111;&#x1ed5;i.&#xa;&#x9;. L&#xe0;m m&#x1edb;i: d&#xf9;ng &#x111;&#x1ec3; reset th&#xf4;ng tin h&#xf3;a &#x111;&#x1a1;n vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;L&#xe0;m M&#x1edb;i&#x201d;.&#xa;. L&#x1b0;u H&#x110;: d&#xf9;ng &#x111;&#x1ec3; l&#x1b0;u th&#xf4;ng tin h&#xf3;a &#x111;&#x1a1;n m&#x1edb;i v&#xe0;o trong l&#x1ecb;ch s&#x1eed; nh&#xe0; h&#xe0;ng vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;L&#x1b0;u H&#x110;&#x201d;.&#xa;&#xa;Khung th&#xea;m m&#xf3;n: &#xa;&#x9;. Th&#xea;m: nh&#x1ea5;p ch&#x1ecd;n m&#xf3;n &#x103;n mu&#x1ed1;n th&#xea;m v&#xe0; nh&#x1ea5;p v&#xe0;o &#x201c;TH&#xca;M&#x201d; &#x111;&#x1ec3; th&#xea;m m&#xf3;n &#x103;n &#x111;&#xf3; v&#xe0;o h&#xf3;a &#x111;&#x1a1;n c&#x1ee7;a kh&#xe1;ch h&#xe0;ng.&#xa;&#x9;. X&#xf3;a: nh&#x1ea5;p ch&#x1ecd;n m&#xf3;n &#x103;n &#x111;&#xe3; th&#xea;m v&#xe0;o h&#xf3;a &#x111;&#x1a1;n tr&#x1b0;&#x1edb;c &#x111;&#xf3; v&#xe0; nh&#x1ea5;p v&#xe0;o &#x201c;X&#xd3;A&#x201d; &#x111;&#x1ec3; x&#xf3;a m&#xf3;n &#x111;&#xf3; kh&#x1ecf;i h&#xf3;a &#x111;&#x1a1;n c&#x1ee7;a kh&#xe1;ch h&#xe0;ng.&#xa;&#x9;. T&#x103;ng: nh&#x1ea5;p ch&#x1ecd;n v&#xe0;o m&#xf3;n &#x103;n &#x111;&#xe3; th&#xea;m v&#xe0;o h&#xf3;a &#x111;&#x1a1;n tr&#x1b0;&#x1edb;c &#x111;&#xf3; v&#xe0; nh&#x1ea5;p v&#xe0;o &#x201c;T&#x102;NG&#x201d; &#x111;&#x1ec3; t&#x103;ng s&#x1ed1; l&#x1b0;&#x1ee3;ng m&#xf3;n &#x103;n &#x111;&#xf3;.&#xa;&#x9;. Gi&#x1ea3;m: nh&#x1ea5;p ch&#x1ecd;n v&#xe0;o m&#xf3;n &#x103;n &#x111;&#xe3; th&#xea;m v&#xe0;o h&#xf3;a &#x111;&#x1a1;n tr&#x1b0;&#x1edb;c &#x111;&#xf3; v&#xe0; nh&#x1ea5;p v&#xe0;o &#x201c;GI&#x1ea2;M&#x201d; &#x111;&#x1ec3; gi&#x1ea3;m s&#x1ed1; l&#x1b0;&#x1ee3;ng m&#xf3;n &#x103;n &#x111;&#xf3;.&#xa;&#xa;Khung h&#xf3;a &#x111;&#x1a1;n: nh&#x1ea5;p &#x111;&#x1ea7;y &#x111;&#x1ee7; th&#xf4;ng tin kh&#xe1;ch h&#xe0;ng v&#xe0; c&#xe1;c m&#xf3;n &#x103;n theo y&#xea;u c&#x1ea7;u, ch&#x1ecd;n khuy&#x1ebf;n m&#xe3;i ph&#xf9; h&#x1ee3;p v&#x1edb;i ch&#x1b0;&#x1a1;ng tr&#xec;nh, ch&#x1ecd;n lo&#x1ea1;i h&#xec;nh &#x201c;thanh to&#xe1;n&#x201d; theo nhu c&#x1ea7;u c&#x1ee7;a kh&#xe1;ch h&#xe0;ng. Nh&#x1ea5;p ch&#x1ecd;n &#x201c;Thanh To&#xe1;n&#x201d; &#x111;&#x1ec3; thanh to&#xe1;n cho kh&#xe1;ch h&#xe0;ng v&#xe0; &#x111;&#x1ed3;ng th&#x1edd;i l&#x1b0;u h&#xf3;a &#x111;&#x1a1;n v&#xe0;o l&#x1ecb;ch s&#x1eed; nh&#xe0; h&#xe0;ng.&#xa;H&#xf3;a &#x110;&#x1a1;n: &#xa;Khi &#x111;&#x103;ng nh&#x1ead;p v&#xe0;o v&#x1edb;i vai tr&#xf2; c&#x1ee7;a &#x201c;Thu Ng&#xe2;n&#x201d; &#x111;&#x1b0;&#x1ee3;c s&#x1eed; d&#x1ee5;ng th&#x1ed1;ng k&#xea;: kh&#xe1;ch h&#xe0;ng, h&#xf3;a &#x111;&#x1a1;n, nguy&#xea;n li&#x1ec7;u.&#xa;Th&#x1ed1;ng k&#xea; kh&#xe1;ch h&#xe0;ng:&#xa;. T&#x1ea1;i khung t&#xec;m ki&#x1ebf;m cho b&#x1ea1;n th&#x1ea5;y c&#xe1;c s&#x1ed1; &#x111;i&#x1ec7;n tho&#x1ea1;i c&#x1ee7;a kh&#xe1;ch h&#xe0;ng &#x111;&#xe3; t&#x1eeb;ng &#x111;&#x1ebf;n nh&#xe0; h&#xe0;ng.&#xa;. T&#x1ea1;i khung s&#x1eaf;p x&#x1ebf;p: c&#xf3; th&#x1ec3; s&#x1eaf;p x&#x1ebf;p, gi&#x1edb;i t&#xed;nh, ng&#xe0;y sinh, s&#x1ed1; &#x111;i&#x1ec7;n tho&#x1ea1;i, email, &#x111;&#x1ecb;a ch&#x1ec9;.&#xa;. Ch&#x1ecd;n s&#x1eaf;p x&#x1ebf;p theo: t&#x103;ng d&#x1ea7;n ho&#x1eb7;c gi&#x1ea3;m d&#x1ea7;n.&#xa;. C&#xf3; th&#x1ec3; s&#x1eed; d&#x1ee5;ng c&#xe1;c ch&#x1ee9;c n&#x103;ng kh&#xe1;c nh&#x1b0; th&#xea;m, chi ti&#x1ebf;t, xem file, xu&#x1ea5;t file.&#xa;.  &#xa;&#x110;&#x1ed5;i m&#x1ead;t kh&#x1ea9;u:&#xa;&#x110;&#x1ec3; &#x111;&#x1ed5;i m&#x1ead;t kh&#x1ea9;u hi&#x1ec7;n t&#x1ea1;i vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;&#x110;&#x1ed5;i M&#x1ead;t Kh&#x1ea9;u&#x201d;. &#xa;Nh&#x1ead;p m&#x1ead;t kh&#x1ea9;u hi&#x1ec7;n t&#x1ea1;i, nh&#x1ead;p m&#x1ead;t kh&#x1ea9;u m&#x1edb;i, x&#xe1;c nh&#x1ead;n l&#x1ea1;i m&#x1ead;t kh&#x1ea9;u m&#x1edb;i v&#x1eeb;a nh&#x1ead;p. N&#x1ebf;u nh&#x1ead;p sai c&#xe1;c th&#xf4;ng tin b&#xe1;o l&#x1ed7;i &#x201c;&#x111;&#x1ed5;i kh&#xf4;ng th&#xe0;nh c&#xf4;ng&#x201d;&#xa;&#xa;C&#xe1; nh&#xe2;n:&#xa;Ng&#x1b0;&#x1edd;i d&#xf9;ng kh&#xf4;ng ph&#x1ea3;i l&#xe0; qu&#x1ea3;n l&#xfd; ch&#x1ec9; &#x111;&#x1b0;&#x1ee3;c ki&#x1ec3;m tra th&#xf4;ng tin c&#xe1; nh&#xe2;n c&#x1ee7;a m&#xec;nh v&#xe0; kh&#xf4;ng &#x111;&#x1b0;&#x1ee3;c s&#x1eed; d&#x1ee5;ng c&#xe1;c ch&#x1ee9;c n&#x103;ng kh&#xe1;c."/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel5">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder/>
+                  </Border>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="cc" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="&#x110;&#x1ea7;u B&#x1ebf;p">
+                    <Property name="tabTitle" type="java.lang.String" value="&#x110;&#x1ea7;u B&#x1ebf;p"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane3" alignment="0" pref="678" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane3" alignment="0" pref="352" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTextArea" name="jTextArea3">
+                      <Properties>
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="text" type="java.lang.String" value="Kho nguy&#xea;n li&#x1ec7;u:&#xa;&#x111;&#x1ea7;u b&#x1ebf;p sau khi &#x1ea5;n v&#xe0;o kho nguy&#xea;n li&#x1ec7;u, ch&#x1b0;&#x1a1;ng tr&#xec;nh s&#x1ebd; chuy&#x1ec3;n &#x111;&#x1ebf;n form th&#x1ed1;ng k&#xea; nguy&#xea;n li&#x1ec7;u cho &#x111;&#x1ea7;u b&#x1ebf;p. T&#x1ea1;i &#x111;&#xe2;y &#x111;&#x1ea7;u b&#x1ebf;p c&#xf3; th&#x1ec3; xem &#x111;&#x1b0;&#x1ee3;c to&#xe0;n b&#x1ed9; nguy&#xea;n li&#x1ec7;u &#x111;ang c&#xf3; v&#xe0; s&#x1ed1; l&#x1b0;&#x1ee3;ng c&#x1ee7;a nguy&#xea;n li&#x1ec7;u t&#x1ea1;i th&#x1edd;i &#x111;i&#x1ec3;m &#x111;&#xf3;. Ngo&#xe0;i ra &#x111;&#x1ea7;u b&#x1ebf;p c&#xf2;n c&#xf3; th&#x1ec3; s&#x1eed; d&#x1ee5;ng c&#xe1;c ch&#x1ee9;c n&#x103;ng nh&#x1b0;: T&#xec;m ki&#x1ebf;m nguy&#xea;n li&#x1ec7;u mu&#x1ed1;n xem, S&#x1eaf;p x&#x1ebf;p theo s&#x1ed1; l&#x1b0;&#x1ee3;ng t&#x103;ng d&#x1ea7;n ho&#x1eb7;c gi&#x1ea3;m d&#x1ea7;n, Th&#xea;m nguy&#xea;n li&#x1ec7;u, Xu&#x1ea5;t file excel cho nguy&#xea;n li&#x1ec7;u.&#xa;Th&#x1ef1;c &#x111;&#x1a1;n:&#xa;&#x110;&#x1ea7;u b&#x1ebf;p c&#xf3; th&#x1ec3; th&#xea;m, x&#xf3;a, s&#x1eed;a c&#xe1;c m&#xf3;n &#x103;n trong ph&#x1ea7;n th&#x1ef1;c &#x111;&#x1a1;n &#x111;&#xe3; c&#xf3; s&#x1eb5;n c&#x1ee7;a nh&#xe0; h&#xe0;ng.&#xa;Phi&#x1ebf;u nh&#x1ead;p:&#xa;&#x110;&#x1ea7;u b&#x1ebf;p c&#xf3; th&#x1ebb; xem to&#xe0;n b&#x1ed9; phi&#x1ebf;u nh&#x1ead;p, ng&#x1b0;&#x1edd;i nh&#x1ead;p h&#xe0;ng v&#xe0; t&#x1ed5;ng chi cho l&#x1ea7;n nh&#x1ead;p h&#xe0;ng &#x111;&#xf3; &#x111;&#x1ec3; &#x111;&#x1ed1;i chi&#x1ebf;u v&#x1edb;i kho nguy&#xea;n li&#x1ec7;u. Ngo&#xe0;i ra &#x111;&#x1ea7;u b&#x1ebf;p c&#xf2;n c&#xf3; th&#x1ec3; s&#x1eed; d&#x1ee5;ng c&#xe1;c ch&#x1ee9;c n&#x103;ng nh&#x1b0;: T&#xec;m ki&#x1ebf;m phi&#x1ebf;u nh&#x1ead;p mu&#x1ed1;n xem, S&#x1eaf;p x&#x1ebf;p theo s&#x1ed1; l&#x1b0;&#x1ee3;ng t&#x103;ng d&#x1ea7;n ho&#x1eb7;c gi&#x1ea3;m d&#x1ea7;n, Th&#xea;m phi&#x1ebf;u nh&#x1ead;p, Xu&#x1ea5;t file excel cho phi&#x1ebf;u nh&#x1ead;p. Trong &#x111;&#xf3; &#x111;&#x1ea7;u b&#x1ebf;p c&#xf2;n c&#xf3; th&#x1ec3; l&#x1ecd;c c&#xe1;c phi&#x1ebf;u nh&#x1ead;p theo ng&#xe0;y, theo ng&#x1b0;&#x1edd;i l&#x1ead;p, theo nguy&#xea;n li&#x1ec7;u nh&#x1ead;p.&#xa;&#x110;&#x1ed5;i m&#x1ead;t kh&#x1ea9;u:&#xa;&#x110;&#x1ec3; &#x111;&#x1ed5;i m&#x1ead;t kh&#x1ea9;u hi&#x1ec7;n t&#x1ea1;i vui l&#xf2;ng nh&#x1ea5;p v&#xe0;o &#x201c;&#x110;&#x1ed5;i M&#x1ead;t Kh&#x1ea9;u&#x201d;. &#xa;Nh&#x1ead;p m&#x1ead;t kh&#x1ea9;u hi&#x1ec7;n t&#x1ea1;i, nh&#x1ead;p m&#x1ead;t kh&#x1ea9;u m&#x1edb;i, x&#xe1;c nh&#x1ead;n l&#x1ea1;i m&#x1ead;t kh&#x1ea9;u m&#x1edb;i v&#x1eeb;a nh&#x1ead;p. N&#x1ebf;u nh&#x1ead;p sai c&#xe1;c th&#xf4;ng tin s&#x1ebd; b&#xe1;o l&#x1ed7;i &#x201c;&#x111;&#x1ed5;i kh&#xf4;ng th&#xe0;nh c&#xf4;ng&#x201d;&#xa;C&#xe1; nh&#xe2;n:&#xa;Ng&#x1b0;&#x1edd;i d&#xf9;ng l&#xe0; &#x111;&#x1ea7;u b&#x1ebf;p ch&#x1ec9; &#x111;&#x1b0;&#x1ee3;c ki&#x1ec3;m tra th&#xf4;ng tin c&#xe1; nh&#xe2;n c&#x1ee7;a m&#xec;nh v&#xe0; &#x111;&#x1b0;&#x1ee3;c s&#x1eed; d&#x1ee5;ng c&#xe1;c ch&#x1ee9;c n&#x103;ng kh&#xe1;c.&#xa;&#xa;Mail cho nh&#xe0; cung c&#x1ea5;p:&#xa;+ &#x110;&#x1ea7;u b&#x1ebf;p khi c&#x1ea7;n cung &#x1ee9;ng nguy&#xea;n li&#x1ec7;u s&#x1ebd; g&#x1eed;i mail cho nh&#xe0; cung c&#x1ea5;p &#x111;&#x1ec3; &#x111;&#x1b0;&#x1ee3;c cung &#x1ee9;ng h&#xe0;ng h&#xf3;a&#xa;+ &#x110;&#x1ea7;u B&#x1ebf;p nh&#x1ead;p mail c&#x1ee7;a nh&#xe0; cung c&#x1ea5;p v&#xe0; nh&#x1ead;p nguy&#xea;n li&#x1ec7;u cho nh&#xe0; cung c&#x1ea5;p&#xa;+ Sau ghi nh&#x1ead;p &#x111;&#x1ea7;u &#x111;&#x1ee7; th&#xf4;ng tin ng&#x1b0;&#x1edd;i d&#xf9;ng b&#x1ea5;m v&#xe0;o n&#xfa;t g&#x1eed;i mail, email c&#x1ee7;a b&#x1ea1;n s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c g&#x1eed;i cho nh&#xe0; cung c&#x1ea5;p&#xa;&#xa;&#xa;Giao di&#x1ec7;n qu&#xea;n m&#x1ead;t kh&#x1ea9;u:&#xa;+ Sau khi ch&#x1ea1;y form login n&#x1ebf;u ng&#x1b0;&#x1edd;i d&#xf9;ng qu&#xea;n m&#x1ead;t kh&#x1ea9;u &#x111;&#x103;ng nh&#x1ead;p =&gt; click v&#xe0;o n&#xfa;t qu&#xea;n m&#x1ead;t kh&#x1ea9;u s&#x1ebd; chuy&#x1ec3;n sang form qu&#xea;n m&#x1ead;t kh&#x1ea9;u&#xa;+ Ng&#x1b0;&#x1edd;i d&#xf9;ng ph&#x1ea3;i nh&#x1ead;p &#x111;&#x1ea7;y &#x111;&#x1ee7; th&#xf4;ng tin n&#x1ebf;u mu&#x1ed1;n l&#x1ea5;y l&#x1ea1;i m&#x1ead;t kh&#x1ea9;u m&#x1edb;i.&#xa;+ Ng&#x1b0;&#x1edd;i d&#xf9;ng ph&#x1ea3;i nh&#x1ead;p &#x111;&#xfa;ng th&#xf4;ng tin bao g&#x1ed3;m T&#xe0;i kho&#x1ea3;n ( M&#xe3; Nh&#xe2;n Vi&#xea;n) v&#xe0; email khi &#x111;&#x103;ng k&#xfd; &#xa;+ N&#x1ebf;u &#x111;&#x1b0;&#x1ee3;c th&#xf4;ng b&#xe1;o ( M&#x1ead;t kh&#x1ea9;u m&#x1edb;i c&#x1ee7;a b&#x1ea1;n &#x111;&#xe3; &#x111;&#x1b0;&#x1ee3;c g&#x1eed;i qua mail) th&#xec; b&#x1ea1;n vui l&#xf2;ng v&#xe0;o email c&#x1ee7;a m&#xec;nh &#x111;&#x1ec3; check email t&#x1eeb; Nh&#xe0; H&#xe0;ng &#x111;&#x1ec3; nh&#x1ead;n th&#xf4;ng tin v&#x1ec1; m&#x1ead;t kh&#x1ea9;u m&#x1edb;i.&#xa;+ Sau nghi nh&#x1ead;p &#x111;&#x1b0;&#x1ee3;c m&#x1ead;t kh&#x1ea9;u m&#x1edb;i b&#x1ea1;n vui l&#xf2;ng v&#xe0;o ph&#x1ea7;n &#x111;&#x1ed5;i m&#x1ead;t kh&#x1ea9;u &#x111;&#x1ec3; &#x111;&#x1ed5;i l&#x1ea1;i m&#x1ead;t kh&#x1ea9;u m&#x1edb;i.&#xa;"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="34" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="33" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="H&#x1b0;&#x1edb;ng D&#x1eab;n S&#x1eed; D&#x1ee5;ng Ph&#x1ea7;n M&#x1ec1;m"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnDanhMuc">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="20" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="0" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icon/purchase-order-32.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Danh M&#x1ee5;c"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder thickness="5">
+                  <Color PropertyName="color" blue="66" green="cc" red="ff" type="rgb"/>
+                </LineBorder>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDanhMucActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnHuongDan">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="20" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="0" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icon/help-32.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="H&#x1b0;&#x1edb;ng D&#x1eab;n"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder thickness="5">
+                  <Color PropertyName="color" blue="66" green="cc" red="ff" type="rgb"/>
+                </LineBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnExit">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="33" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icon/close-window-32.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="THO&#xc1;T"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExitActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
